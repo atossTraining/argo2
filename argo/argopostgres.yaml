@@ -5,7 +5,7 @@ metadata:
 spec: 
   project: default
   source:
-    repoURL: https://github.com/atossTraining/argogolang.git
+    repoURL: https://github.com/atossTraining/argo2.git
     targetRevision: main
     path: postgres
   destination:
