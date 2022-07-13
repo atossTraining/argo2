@@ -1,8 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: argo-golang-yaml
-  namespace: argocd
+  name: alex-golang-yaml
 spec: 
   project: default
   source:
@@ -11,7 +10,7 @@ spec:
     path: golang
   destination:
     server: https://kubernetes.default.svc
-    namespace: argogolangyaml 
+    namespace: alexsnamespace 
   
   syncPolicy:
     syncOptions:
