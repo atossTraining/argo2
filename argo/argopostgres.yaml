@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: alex-postgres-yaml
+  name: alex
 spec: 
   project: default
   source:
